@@ -2,7 +2,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $contrasena = "";
-$basedatos = "bd_registro";
+$basedatos = "bd_registro";//crear conexion a la base de datos
 
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $basedatos);
 
